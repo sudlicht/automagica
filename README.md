@@ -1,0 +1,3 @@
+# Automagica
+
+Work in progress

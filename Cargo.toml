@@ -1,0 +1,11 @@
+[package]
+name = "automagica"
+version = "0.0.1-early-dev"
+authors = ["stellaurora"]
+description = "A magical themed automation game"
+readme = "README.md"
+homepage = "sudlicht.com"
+
+edition = "2024"
+
+[dependencies]
