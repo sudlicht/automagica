@@ -1,11 +1,16 @@
-[package]
-name = "automagica"
-version = "0.0.1-early-dev"
-authors = ["stellaurora"]
-description = "A magical themed automation game"
-readme = "README.md"
-homepage = "sudlicht.com"
+[workspace]
+members = ["client", "common", "server"]
+resolver = "3"
 
-edition = "2024"
+[workspace.dependencies]  
+# ecs
+hecs = "0.10.5"
 
-[dependencies]
+# serialization and deserialization
+serde = { version = "1.0", features = ["derive"] }
+
+# linear algebra library
+glam = { version = "0.30.3", features = ["libm", "serde"] }
+
+# Deterministic floating point operations outside of IEEE 754
+libm = "0.2.11"

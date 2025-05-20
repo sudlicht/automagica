@@ -1,0 +1,6 @@
+[package]
+name = "client"
+version = "0.0.1-early-dev"
+edition = "2024"
+
+[dependencies]
